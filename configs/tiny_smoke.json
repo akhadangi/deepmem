@@ -1,0 +1,33 @@
+{
+  "block_size": 32,
+  "d_model": 32,
+  "n_heads": 4,
+  "n_initial_layers": 1,
+  "n_final_layers": 1,
+  "max_width": 32,
+  "max_heads": 4,
+  "custom_sem_widths": [
+    32,
+    32,
+    32
+  ],
+  "min_length": 8,
+  "lift_rank": 8,
+  "carrier_proj_rank": 8,
+  "down_depths": [
+    1,
+    1
+  ],
+  "up_refine_depths": [
+    1,
+    1
+  ],
+  "mlp_ratio": 2.0,
+  "ladder_mlp_ratio": 2.0,
+  "bottleneck_shared_state": true,
+  "shared_state_steps": 2,
+  "disable_multiscale": true,
+  "chunk_size": 8,
+  "conv_kernel": 3,
+  "dropout": 0.0
+}
