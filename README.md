@@ -7,7 +7,6 @@
 
 This repository is designed to run **without SLURM, cluster-specific modules, filesystem paths, or private `seal_m` dependencies**. Use Python for one GPU, or PyTorch `torchrun` for 2–4 (or more) GPUs on one machine. CPU operation is supported for small verification runs.
 
-> **Reproducibility scope:** The main architecture was extracted from the author's supplied DeepMem implementation and its paper configuration was recreated from the supplied training script. The original `seal_m.data.byte_stream` and other `seal_m` runtime modules, experiment checkpoints, dataset snapshots, and benchmark evaluation scripts were **not** supplied. The portable data/training/evaluation implementations here are new, so identical published BPB numbers are **not guaranteed** merely by using the same hyperparameters. The paper configuration has been checked to instantiate exactly **100,158,582 trainable parameters**, including **69,280** parameters in the shared-state module. No pretrained weights are included.
 
 ## Features
 
