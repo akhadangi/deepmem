@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepmem-code"
+version = "0.1.0"
+description = "DeepMem: causal multiscale byte-level language modeling with invertible carriers"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2"]
+keywords = ["byte language model", "multiscale", "fastweight", "lossless carrier"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Artificial Intelligence"]
+
+[project.optional-dependencies]
+data = ["datasets>=2.18"]
+wandb = ["wandb>=0.16"]
+test = ["pytest>=7"]
+all = ["datasets>=2.18", "wandb>=0.16", "pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

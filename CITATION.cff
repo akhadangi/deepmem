@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use DeepMem, please cite the paper."
+title: "Going Deeper With Memories"
+type: software
+authors:
+  - family-names: Khadangi
+    given-names: Afshin
+year: 2026
+preferred-citation:
+  type: article
+  title: "Going Deeper With Memories"
+  authors:
+    - family-names: Khadangi
+      given-names: Afshin
+  year: 2026
+  repository-code: "https://arxiv.org/abs/2611.05255"
+  url: "https://arxiv.org/abs/2611.05255"
