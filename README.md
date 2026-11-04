@@ -5,8 +5,6 @@
 **Paper:** [Going Deeper With Memories](https://arxiv.org/abs/2611.05255) (arXiv:2611.05255, 2026)  
 **Author:** Afshin Khadangi
 
-This repository is designed to run **without SLURM, cluster-specific modules, filesystem paths, or private `seal_m` dependencies**. Use Python for one GPU, or PyTorch `torchrun` for 2–4 (or more) GPUs on one machine. CPU operation is supported for small verification runs.
-
 
 ## Features
 
